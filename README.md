@@ -5,3 +5,5 @@ starter however I never did end up really using their components I just reverted
 
 #running
 * npm run start
+
+![Imgur](http://i.imgur.com/4vi4hjA.png)
