@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-4">
+        <my-header [cssClass]="'Redditheader'" [heading]="'Scala'">
+        </my-header>
+        <article *ngFor="let item of scalaSubReddit" [url]=item.url [title]=item.title [isReddit]=True>
+        </article>
+    </div>
+    <div class="col-md-4">
+        <my-header [cssClass]="'Redditheader'" [heading]="'Elm'"></my-header>
+        <article *ngFor="let item of elmSubReddit" [url]=item.url [title]=item.title [isReddit]=True>
+        </article>
+    </div>
+    <div class="col-md-4">
+        <my-header [cssClass]="'Redditheader'" [heading]="'React'"></my-header>
+        <article *ngFor="let item of reactSubReddit" [url]=item.url [title]=item.title [isReddit]=True>
+        </article>
+    </div>
+</div>
